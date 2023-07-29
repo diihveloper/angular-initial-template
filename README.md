@@ -1,27 +1,30 @@
-# InitialTemplate
+# Template Inicial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+## Descrição
 
-## Development server
+Este projeto serve como um template inicial para projetos Angular 16. Sua estrutura foi pensada para facilitar o
+desenvolvimento de novas aplicações.
+Nada impedirá que você altere a estrutura do projeto, mas é importante que você entenda o que está fazendo.
+Melhorias na estrutura do projeto são sempre bem vindas, desde que sejam discutidas com a equipe.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Configuração da Aplicação
 
-## Code scaffolding
+- [Configuração do Projeto](docs/configuracao-projeto.md)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Models](src/app/models/README.md) - O que são e como criar models
 
-## Build
+- [Services](src/app/services/README.md) - O que são e como criar services
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Store](src/app/store/README.md) - Utilização do NgRx para gerenciamento de estado
 
-## Running unit tests
+- [Modules](src/app/modules/README.md) - O que são e como criar modules
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Pages](src/app/pages/README.md) - O que são e como criar paginas
 
-## Running end-to-end tests
+- [Components](src/app/shared/components/README.md) - O que são e como criar components compartilhados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Directives](src/app/shared/directives/README.md) - O que são e como criar directives compartilhadas
 
-## Further help
+- [Pipes](src/app/shared/pipes/README.md) - O que são e como criar pipes compartilhados
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Interceptors](src/app/shared/interceptors/README.md) - O que são e como criar interceptors

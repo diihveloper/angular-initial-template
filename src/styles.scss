@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+// @use "example" as ex;
+
+// @import "other";
+@import "variables";
+@import "root";
+@import "fonts/icons/style";
+
+// css
